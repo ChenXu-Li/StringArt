@@ -1,0 +1,18 @@
+# 忽略的文件
+#.gitignore
+# 忽略所有 .log 文件
+*.log
+__pycache__/
+.vscode/**
+.vscode
+
+DatasetCreate/input/**
+
+Network/dataset/**
+Network/output/**
+
+StringArt/input/**
+StringArt/output/**
+
+# 不忽略 README.md 文件
+!README.md
