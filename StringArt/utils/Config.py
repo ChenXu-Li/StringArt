@@ -1,14 +1,14 @@
 
 
-PULL_AMOUNT = 500       #拉几次线
+PULL_AMOUNT = 5000       #拉几次线
 
-NAIL_NUM = 1000              #总共多少钉子
+NAIL_NUM = 2000              #总共多少钉子
 
 
 USE_MASK = True             #是否使用注意力遮罩
 
 USE_RANDOM_NAILS = True
-RANDOM_NAILS_NUM = 50       #随机钉子数量
+RANDOM_NAILS_NUM = 100       #随机钉子数量
 
 
 

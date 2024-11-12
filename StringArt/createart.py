@@ -234,11 +234,11 @@ def save_fig(results_1, o, m, results_2, output_file):
 if __name__ == '__main__':
     random_nail_n=[100,200,400,500]
     line_strength=[0.2,0.5,0.7,1.0]
-    for index in range(1,250):
+    for index in range(40,250):
         if(index%10==0):
             Config.RANDOM_NAILS_NUM = random_nail_n[int(index/10)%4]
         if(index%40==0):
-            Config.EXPORT_STRENGTH = line_strength[int(index)/40%4]
+            Config.EXPORT_STRENGTH = line_strength[int(index/40)%4]
         # output_file = "D:\littlecode\ART\StringArt\output\\"+str(index)+"_out.jpg"
         Config.USE_MASK=False
         results_1,o,m = one_art(index)
@@ -334,6 +334,7 @@ if __name__ == '__main__':
 
 
 # #python createart.py -i D:\littlecode\PythonProjects\StringArt\test_data\a.jpg -o D:\littlecode\PythonProjects\StringArt\test_data\output.jpg
+
 
 
 
